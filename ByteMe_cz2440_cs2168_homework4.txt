@@ -1,0 +1,33 @@
+Description:
+    This is a toy project for team ByteMe pair Chi Zhang and Chengtian Xu.
+    This project uses node.js, which help build a local server that does
+    some simple tasks. Server side framework is express.js, database used is
+    Mongodb. Together they perform a simple task of showing team member's
+    info if you access the webroot which is localhost:3000/ . Also we used
+    added React.js to be a part of the project, using which we implemented
+    the random number function if you visit localhost:3000/random. 
+
+Experience:
+    We setted up the backend part fairly easily since we had some experience
+    using express and mongodb. However it took us some time to figure out
+    how to use the React module for View and Components parts of the MVC
+    model. Also we are using eslint as a style checker and Jasmine.js as
+    test tool, which can all be installed directly from npm. 
+
+
+Detailed Instructions:
+
+To access our repo:
+git clone https://github.com/chyzhang/toy.git
+
+To build the toy project:
+follow instructions in README.txt
+
+To run and play with the project:
+npm start
+
+- localhost:3000/
+    - listed are the info of the four team members, queried from mongodb
+      database
+- localhost:3000/random
+    - Gives a random number, implemented with React module
